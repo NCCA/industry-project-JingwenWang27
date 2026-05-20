@@ -10,5 +10,7 @@ checkpoints/
 *.pt
 *.ckpt
 *.bin
-dataset/
+dataset/*
+!dataset/test/
+!dataset/test/**
 sam2/
