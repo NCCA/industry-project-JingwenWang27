@@ -62,6 +62,8 @@ git clone https://github.com/facebookresearch/sam2.git
 cd sam2
 pip install -e .
 ```
+Pretrained checkpoints are available via Google Drive:
+[https://drive.google.com/drive/folders/1koz_3R0dEurMPCgdub8Q5XF0ioF_Jspu?usp=drive_link]
 
 ## Dataset
 
@@ -124,11 +126,6 @@ The script reads sample images from:
 dataset/test/
 ```
 
-and writes output images to:
-
-```text
-dataset/test_output_joint/
-```
 
 ## Evaluation Notebooks
 
