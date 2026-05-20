@@ -9,7 +9,7 @@ from torchvision import transforms
 from model_mattingnet import MattingNet
 from postprocess import despill_postprocess
 
-# paths and config  路径和配置
+ 
 DEVICE     = 'cuda' if torch.cuda.is_available() else 'cpu'
 CKPT       = './checkpoints/best_joint.pth'
 INPUT_DIR  = './dataset/test'
