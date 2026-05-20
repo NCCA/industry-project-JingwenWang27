@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+
+# 模型权重太大，不上传
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# 数据集太大，不上传
+dataset/
+
+# SAM2 是第三方库，不上传
+sam2/
