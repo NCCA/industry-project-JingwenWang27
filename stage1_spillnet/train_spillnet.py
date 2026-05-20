@@ -14,11 +14,11 @@ from loss_spillnet import SpillLoss
 
 
 DEVICE   = 'cuda'
-ROOT     = '/home/s5820023/Desktop/MC/dataset'
+ROOT     = './dataset'
 EPOCHS   = 50
 BATCH    = 4
 LR       = 1e-4
-SAVE_DIR = '/home/s5820023/Desktop/MC/checkpoints/stage1_spillnet'
+SAVE_DIR = './checkpoints/stage1_spillnet'
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 

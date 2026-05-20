@@ -6,14 +6,14 @@ import torch.nn.functional as F
 from PIL import Image
 from torchvision import transforms
 
-from model_joint import MattingNet
+from model_mattingnet import MattingNet
 from postprocess import despill_postprocess
 
 # paths and config  路径和配置
 DEVICE     = 'cuda' if torch.cuda.is_available() else 'cpu'
-CKPT       = '/home/s5820023/Desktop/MC/checkpoints/best_joint.pth'
-INPUT_DIR  = '/home/s5820023/Desktop/MC/dataset/test'
-OUTPUT_DIR = '/home/s5820023/Desktop/MC/dataset/test_output_joint'
+CKPT       = './checkpoints/best_joint.pth'
+INPUT_DIR  = './dataset/test'
+OUTPUT_DIR = './dataset/test_output_joint'
 INFER_SIZE = 512
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

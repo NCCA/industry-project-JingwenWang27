@@ -1,5 +1,5 @@
 import os, sys
-sys.path.insert(0, '/home/s5820023/Desktop/MC')
+sys.path.insert(0, '.')
 
 import torch
 from torch.utils.data import DataLoader, random_split
@@ -11,12 +11,12 @@ from loss_mattingnet  import JointLoss
 
 
 DEVICE   = 'cuda'
-ROOT     = '/home/s5820023/Desktop/MC/dataset'
+ROOT     = './dataset'
 EPOCHS   = 60
 BATCH    = 4
 LR       = 1e-4
 BASE_CH  = 32
-SAVE_DIR = '/home/s5820023/Desktop/MC/checkpoints'
+SAVE_DIR = './checkpoints'
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 full     = GreenScreenDataset(root=ROOT)

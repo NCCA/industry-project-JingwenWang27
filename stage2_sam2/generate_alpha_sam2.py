@@ -6,15 +6,15 @@ from PIL import Image
 import cv2
 
 
-sys.path.insert(0, '/home/s5820023/Desktop/MC/sam2')
+sys.path.insert(0, './sam2')
 
 from sam2.build_sam import build_sam2
 from sam2.sam2_image_predictor import SAM2ImagePredictor
 
 
-IMAGE_ROOT  = '/home/s5820023/Desktop/MC/dataset/image'
-ALPHA_ROOT  = '/home/s5820023/Desktop/MC/dataset/alpha'
-SAM2_CKPT   = '/home/s5820023/Desktop/MC/checkpoints/sam2/sam2.1_hiera_large.pt'
+IMAGE_ROOT  = './dataset/image'
+ALPHA_ROOT  = './dataset/alpha'
+SAM2_CKPT   = './checkpoints/sam2/sam2.1_hiera_large.pt'
 SAM2_CONFIG = 'configs/sam2.1/sam2.1_hiera_l.yaml'
 DEVICE      = 'cuda'
 
