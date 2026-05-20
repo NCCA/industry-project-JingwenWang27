@@ -1,6 +1,6 @@
 # Green Screen Spill Suppression and Video Matting
 
-This repository contains the implementation for an industry project exploring AI-assisted green screen spill suppression and video matting. The project focuses on removing green colour contamination from foreground subjects after chroma keying, especially around hair, semi-transparent edges, and reflective regions.
+This repository contains the implementation for an industry project exploring AI-assisted green screen spill suppression and video matting. The project focuses on correcting and refining residual green colour contamination in foreground subjects after chroma key compositing.
 
 The project was developed as a staged pipeline. Stage 1 is the main implemented solution, while Stage 2 and Stage 3 are exploratory extensions.
 
